@@ -1,0 +1,96 @@
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    transform: rotate(360deg) 60seg;
+    transition-duration: ;
+    transform-origin: center;
+    -webkit-animation: 180s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+header{
+    background-color: #11052e;
+    vertical-align: middle;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 10%;
+    color:  #FFE459;
+    -webkit-text-stroke: rgb(176, 181, 255) 5px solid;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-bottom: 0px;}
+footer{
+    background-color: #11052e;
+    height: 50px;
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    color:  #FFE459;
+    -webkit-text-stroke: rgb(176, 181, 255) 5px solid;
+    font-size: 15px;
+}
+    
+.menu {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #11052e;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0px;        
+}
+      
+.menu li {
+    width: 125px;
+    height: 50px;
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+    margin-bottom: 0%;
+}
+a:hover{
+    color: aliceblue;
+}
+a{
+    color: #774ed8;
+}
+.all{
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: 0px auto 0% auto;
+    height: auto;
+    float: center;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+
+    body{
+        align-items: center;
+        background-image: url("fondo4.jpg");
+        background-position: center;
+        background-size: cover;
+        display: block;
+    }
+form{
+    padding: 5px;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    margin: auto;
+    width: 400px
+}
+.jeje{
+    padding: 5px;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    width: 98%;
+    margin: auto;
+}
