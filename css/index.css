@@ -3,6 +3,13 @@
     height: 100px;
     border-radius: 50%;
     margin: 30px;
+    transform: rotate(360deg) 60seg;
+    transition-duration: ;
+    transform-origin: center;
+    -webkit-animation: 180s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
 }
 
 header{
@@ -15,19 +22,40 @@ header{
     -webkit-text-stroke: rgb(176, 181, 255) 5px solid;
     font-size: 30px;
     vertical-align: middle;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
 }
 body{
     align-items: center;
-    background-image: url("bodyfondo.jpg");
-
+    background-image: url("fondo4.jpg");
+    background-position: center;
+    background-size: cover;
+    display: block;
 }
 .uno{
-    background-color: aliceblue;
-    width: 75%;
+    padding: 5px;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    width: 98%;
     margin: auto;
-    margin-top: 0%;
-    
+    text-align: justify;
+}
+.all{
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: 0px auto 0% auto;
+    height: auto;
+    float: center;
+    padding: 20px;
+
+}
+.nosotros{
+    padding: 5px;
+    border: rgb(68, 63, 63) 1px solid;
+    border-radius: 2%;
+    width: 98%;
+    margin: auto;
+    text-align: justify;
 }
 footer{
     background-color: #11052e;
@@ -44,16 +72,27 @@ footer{
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     background-color: #11052e;
     list-style: none;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
+    
 }
   
   .menu li {
     width: 125px;
     height: 50px;
     transition: background-position-x 0.9s linear;
-    text-align: center;}
+    text-align: center;
+    margin-bottom: 0%;
+}
+a:hover{
+    color: aliceblue;
+}
+a{
+    color: #774ed8;
+}
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
